@@ -10,5 +10,17 @@ import {
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 class AddComment extends Component {
-    
+    state = {
+        comment: '',
+        editMode: true
+    }
+
+    handleAddComment = () => {
+        Alert.alert('Adicionado!', this.state.comment)
+    }
+
+    render() {
+        
+    }
+
 }
